@@ -1,0 +1,11 @@
+@media (max-width:576px) {
+    .main-header{
+        justify-content: space-around;
+    }
+    .nav{
+        display: none;
+    }
+    #menu{
+        display:inline;
+    }
+}

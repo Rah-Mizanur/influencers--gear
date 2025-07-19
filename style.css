@@ -1,0 +1,57 @@
+body {
+    background-color: white;
+    margin: 00px;
+    padding: 00px;
+    font-size: 1vw;
+
+}
+
+/* shared styles  */
+.flex {
+    display: flex;
+}
+
+/* header styles */
+
+.main-header {
+    justify-content: space-between;
+    padding: 4px;
+    align-items: center;
+    margin: 2vh 2vw;
+    /* gap: 40vw; */
+    background: lightseagreen;
+
+}
+
+nav {
+    align-items: center;
+    gap: 2vw;
+    /* gap: 34px; */
+}
+
+.main-header h1 {
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 2em;
+    font-weight: 700;
+    text-align: left;
+}
+#menu{
+    display: none;
+}
+nav p {
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 1.4em;
+    font-weight: 600;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.main-header i{
+     color: rgb(58, 58, 58);
+     margin-right: 2vw;
+     font-size: 1.6em;
+    font-weight: 600;
+    text-align: left;
+}
