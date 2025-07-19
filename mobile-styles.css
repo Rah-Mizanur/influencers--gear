@@ -1,6 +1,7 @@
 @media (max-width:576px) {
     .main-header{
-        justify-content: space-around;
+        justify-content: space-between;
+        font-size: 2em;
     }
     .nav{
         display: none;
@@ -8,4 +9,33 @@
     #menu{
         display:inline;
     }
+    .hero-banner{
+        flex-direction: column-reverse;
+    }
+    .hero-banner-img{
+        display: flex;
+        margin: 00 auto;
+        width: 100%;
+        justify-content: center;
+        /* background-size: cover; */
+        /* align-items: center; */
+    }
+    .hero-banner-text {
+        width: 100%;
+        align-items: center;
+        /* text-align: center; */
+        /* justify-content: center; */
+        
+    }
+
+    .hero-banner-text h1{
+        font-size: 7em;
+        text-align: center;
+    }
+    .hero-banner-text p{
+        font-size: 4em;
+        text-align: center;
+    }
+    .hero-banner-text button{
+       width: 50%;
 }
