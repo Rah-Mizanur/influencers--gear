@@ -1,18 +1,22 @@
 @media (max-width:576px) {
-    .main-header{
+    .main-header {
         justify-content: space-between;
         font-size: 2em;
     }
-    .nav{
+
+    .nav {
         display: none;
     }
-    #menu{
-        display:inline;
+
+    #menu {
+        display: inline;
     }
-    .hero-banner{
+
+    .hero-banner {
         flex-direction: column-reverse;
     }
-    .hero-banner-img{
+
+    .hero-banner-img {
         display: flex;
         margin: 00 auto;
         width: 100%;
@@ -20,22 +24,34 @@
         /* background-size: cover; */
         /* align-items: center; */
     }
+
     .hero-banner-text {
         width: 100%;
         align-items: center;
         /* text-align: center; */
         /* justify-content: center; */
-        
+
     }
 
-    .hero-banner-text h1{
+    .hero-banner-text h1 {
         font-size: 7em;
         text-align: center;
     }
-    .hero-banner-text p{
+
+    .hero-banner-text p {
         font-size: 4em;
         text-align: center;
     }
-    .hero-banner-text button{
-       width: 50%;
-}
+
+    .hero-banner-text button {
+        width: 50%;
+    }
+    /* logo-section */
+    .logo-img {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        /* flex-direction: column; */
+        gap: 2vh;
+        /* text-align: center; */
+        justify-content: center;
+    }

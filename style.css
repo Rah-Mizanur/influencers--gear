@@ -115,3 +115,15 @@ nav p {
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+/* logo-section */
+.logo{
+    max-width: 90vw;
+    margin: 4vh auto;
+}
+.logo-img{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    text-align: center;
+}
