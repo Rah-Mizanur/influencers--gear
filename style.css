@@ -198,6 +198,7 @@ nav p {
         }
         .collection-item-text p{
             margin: 0px 15px;
+            font-size:12px ;
         }
         .price{
             font-size: 24px;
