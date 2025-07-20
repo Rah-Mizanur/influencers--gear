@@ -13,7 +13,7 @@ body {
 
 .btn {
     padding: 0.4vh 2vw;
-    background:#E02C6D;
+    background: #E02C6D;
     width: 16vw;
     border-radius: 10px;
     border: 2px solid #E02C6D;
@@ -27,7 +27,7 @@ body {
     align-items: center;
     margin: 2vh 2vw;
     /* gap: 40vw; */
-    background: lightseagreen;
+    /* background: lightseagreen; */
 
 }
 
@@ -43,6 +43,7 @@ nav {
     font-size: 2em;
     font-weight: 700;
     text-align: left;
+    text-transform: uppercase;
 }
 
 #menu {
@@ -117,13 +118,33 @@ nav p {
 }
 
 /* logo-section */
-.logo{
+.logo {
     max-width: 90vw;
     margin: 4vh auto;
+    overflow: hidden;
+    
 }
-.logo-img{
+
+.logo-img {
     justify-content: space-between;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     /* justify-content: center; */
     text-align: center;
+    gap: 16px;
 }
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-28.5%);
+    }
+
+    /* Shows 5 of 7 at a time */
+}
+
+.track {
+    animation: slide 20s linear infinite;
+}
+

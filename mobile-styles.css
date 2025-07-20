@@ -46,12 +46,23 @@
     .hero-banner-text button {
         width: 50%;
     }
+
     /* logo-section */
     .logo-img {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+
+        /* display: grid; */
+        /* grid-template-columns: 1fr 1fr 1fr 1fr; */
         /* flex-direction: column; */
-        gap: 2vh;
+        /* gap: 2vh; */
         /* text-align: center; */
-        justify-content: center;
+        /* justify-content: center; */
     }
+    @keyframes slide {
+        0%{
+            transform: translateX(0);
+        }
+        100%{
+            transform: translateX(-50%);
+        }
+    }
+}
