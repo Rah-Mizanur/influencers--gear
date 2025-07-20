@@ -1,8 +1,9 @@
 body {
-    background-color: white;
+    background-color: #aaaaaa;
     margin: 00px;
     padding: 00px;
     font-size: 1vw;
+    font-family: "poppins";
 
 }
 
@@ -148,3 +149,57 @@ nav p {
     animation: slide 20s linear infinite;
 }
 
+/* collection section styles */
+    .collection h2{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 800px;
+        text-transform: capitalize;
+    }
+    .collection-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        gap: 6px;
+        
+    }
+        .collection-items{
+            width: 280px;
+            height: 400px;
+            flex-direction: column;
+            gap: 10px;
+            border: 2px solid white;
+            background:#ffffff;
+            border-radius: 10px;
+
+        }
+        .collection-img{
+        margin: 10px auto;
+            /* align-items: center; */
+            /* justify-content: center; */
+            width: 260px;
+            height: 220px;
+        }
+        .collection-img img{
+            margin: 00 auto;
+            width: 100%;
+        }
+        .collection-item-text{
+            flex-direction: column;
+        }
+        .collection-ratings{
+            align-items: center;
+            margin: 2px 15px;
+        }
+        .collection-item-text h1{
+            margin: 0px 15px;
+            font-size: 30px;
+            font-weight: 700;
+            text-transform: capitalize;
+        }
+        .collection-item-text p{
+            margin: 0px 15px;
+        }
+        .price{
+            font-size: 24px;
+            font-weight: 600;
+        }

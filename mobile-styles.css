@@ -1,3 +1,12 @@
+@media (max-width:900px) {
+    .collection-container{
+        grid-template-columns: 1fr 1fr ;
+        place-items: center;
+        /* margin: 00 auto ; */
+        /* max-width: 700px; */
+    }
+}
+
 @media (max-width:576px) {
     .main-header {
         justify-content: space-between;
@@ -62,7 +71,19 @@
             transform: translateX(0);
         }
         100%{
-            transform: translateX(-50%);
+            transform: translateX(-100%);
         }
     }
+    .track{
+        animation: slide 20s linear infinite;
+    }
+    .collection-container{
+        grid-template-columns: 1fr;
+    
+        place-items: center;
+    }
+    .collection-items{
+        width: ;
+    }
 }
+
